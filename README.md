@@ -1,4 +1,5 @@
 # Convert any Corpus of Text into a *Graph of Knowledge*
+Construction of knowledge from any piece of corpus
 
 ![Knowledge Graph Banner](./assets/KG_banner.png)
 *A knowledge graph generated using this code* 
