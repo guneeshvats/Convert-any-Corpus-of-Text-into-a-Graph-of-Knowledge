@@ -62,7 +62,7 @@ Using [Mistral 7B OpenOrca](https://huggingface.co/Open-Orca/Mistral-7B-OpenOrca
 
 Ollama provides seamless local model hosting. The Mistral 7B OpenOrca version is readily available for immediate use. 
 
-**Setup Instructions**:
+**Setup Instructions for Ollama**:
 1. Install Ollama: [Download here](https://ollama.ai)
 2. Run `ollama run zephyr` in your terminal to download the Zephyr model and initiate the Ollama server.
 
