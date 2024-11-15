@@ -5,13 +5,9 @@ Construction of knowledge from any piece of corpus
 *A knowledge graph generated using this code* 
 ghpages link of this graph: https://guneeshvats.github.io/Convert-any-Corpus-of-Text-into-a-Graph-of-Knowledge/
 
-
-## What is a knowledge graph?
-A knowledge graph, also known as a semantic network, represents a network of real-world entities—i.e. objects, events, situations, or concepts—and illustrates the relationship between them. This information is usually stored in a graph database and visualized as a graph structure, prompting the term knowledge “graph.”
-
 Source: https://www.ibm.com/topics/knowledge-graph
 
-## How to create a simple knowledge graph from a body of work?
+## Steps to create a knowledge graph from a body of text?
 1. Clean the text corpus (The body of work).
 2. Extract concepts and entities from the body of work.
 3. Extract relations between the entities. 
@@ -22,7 +18,7 @@ Source: https://www.ibm.com/topics/knowledge-graph
 Step 6 is purely optional, but it has certain artistic gratification associated with it. Network graphs are beautiful objects (just look at the banner image above, isn't it beautiful?). Fortunately, there are a good number of Python libraries available for generating graph visualisations. 
 
 ## Why Graph?
-Once the Knowledge Graph (KG) is build, we can use it for many purposes. We can run graph algorithms and calculate centralities of any node, to understand how important a concept (node) is to this body of work. We can calculate communities to bunch the concepts together to better analyse the text. We can understand the connectedness between seemingly disconnected concepts. 
+Once the Knowledge Graph (KG) is built, we can use it for many purposes. We can run graph algorithms and calculate centralities of any node, to understand how important a concept (node) is to this body of work. We can calculate communities to bunch the concepts together to better analyse the text. We can understand the connectedness between seemingly disconnected concepts. 
 
 The best of all, we can achieve **Graph Retrieval Augmented Generation (GRAG)** and chat with our text in a much more profound way using Graph as a retriever. This is a new and improved version of **Retrieval Augmented Generation (RAG)** where we use a vectory db as a retriever to chat with our documents. 
 
@@ -52,11 +48,6 @@ The notebook implements the method outlined in the following flowchart.
 4. Group similar pairs, sum their weights, and concatenate their relationships. So now we have only one edge between any distinct pair of concepts. The edge has a certain weight and a list of relations as its name.
 
 Additional it also calculates the Degree of each node, and Communities of nodes, for sizing and coloring the nodes in the graph respectively. 
-
-
-**[Here is a Medium article explaining the method in detail ](https://medium.com/towards-data-science/how-to-convert-any-text-into-a-graph-of-concepts-110844f22a1a)**
-
-
 
 ---
 ## Tech Stack
